@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.masoudss.lib.WaveformSeekBar
+        android:id="@+id/waveformseekbar"
+        app:marker_color="#f00"
+        app:marker_text_color="#000"
+        app:marker_text_padding="2dp"
+        app:marker_text_size="12dp"
+        app:marker_width="1dp"
+        app:wave_background_color="#fff"
+        app:wave_corner_radius="2dp"
+        app:wave_gap="2dp"
+        app:wave_gravity="center"
+        app:wave_max_progress="100"
+        app:wave_min_height="5dp"
+        app:wave_padding_Bottom="2dp"
+        app:wave_padding_left="2dp"
+        app:wave_padding_right="2dp"
+        app:wave_padding_top="2dp"
+        app:wave_progress_color="#00f"
+        app:wave_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+</LinearLayout>

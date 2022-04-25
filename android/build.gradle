@@ -1,0 +1,8 @@
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+
+dependencies {
+   implementation  'com.github.massoudss:waveformSeekBar:5.0.0'
+  implementation 'com.github.lincollincol:amplituda:2.1.4'
+}
