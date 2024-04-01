@@ -25,7 +25,6 @@ import com.masoudss.lib.utils.WaveGravity;
 import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.kroll.common.Log;
-import org.appcelerator.kroll.common.TiConfig;
 import org.appcelerator.titanium.TiApplication;
 import org.appcelerator.titanium.TiFileProxy;
 import org.appcelerator.titanium.io.TiBaseFile;
@@ -49,7 +48,6 @@ import linc.com.amplituda.ProgressOperation;
 public class WaveformProxy extends TiViewProxy {
     // Standard Debugging variables
     private static final String LCAT = "WaveformProxy";
-    private static final boolean DBG = TiConfig.LOGD;
     WaveformSeekBar waveformSeekBar;
     Amplituda amplituda;
     long duration = 0;
